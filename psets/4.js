@@ -11,3 +11,9 @@ http://www.mathsisfun.com/temperature-conversion.html
 */
 
 // write your solution here...
+var celsius = 0,
+    fahrenheit = 32,
+    ctof = celsius * 9 / 5 + 32,
+    ftoc = (fahrenheit - 32) * 5 / 9
+;
+console.log(celsius+"C is "+ctof+"F and "+fahrenheit+"F is "+ftoc+"C");
