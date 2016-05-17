@@ -13,5 +13,6 @@ Look up the JavaScript string reference to find methods which may be useful!
 */
 
 function mixUp(a, b) {
-  // write your solution here...
+  console.log(b.substring(0,1) + a.substring(1) + ", " + a.substring(0,1) + b.substring(1));
 }
+mixUp('dominic', 'summers');
