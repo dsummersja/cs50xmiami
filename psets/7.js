@@ -12,5 +12,11 @@ fixStart('babble'): 'ba**le'
 */
 
 function fixStart(s) {
-  // write your solution here...
+  var word = s.substring(1),
+      first = s.charAt(0),
+      replace = word.replace(RegExp(first, "g"), "*")
+  ;
+  console.log(first+replace)
+  ;
 }
+  fixStart('babble');
