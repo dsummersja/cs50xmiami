@@ -11,5 +11,13 @@ For example:
 */
 
 function drEvil(amount) {
-  // write your solution here...
+  if(amount < 1000000 || amount > 1000000) {
+    console.log(amount+" dollars")
+  }
+  else {
+    console.log(amount+" dollars (pinky)")
+  }
 }
+var test = drEvil(1000000),
+    test2 = drEvil(10)
+;
