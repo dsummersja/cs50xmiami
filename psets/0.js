@@ -17,5 +17,4 @@ var numChildren = 3,
     geoLocal = 'Kingston, Jamaica',
     jobTitle = 'programmer'
 ;
-console.log("You will be a "+ jobTitle + " in " + geoLocal + ", and married\
- to " + partnerName + " with " + numChildren + " kids.");
+console.log("You will be a "+ jobTitle + " in " + geoLocal + ", and married to " + partnerName + " with " + numChildren + " kids.");
