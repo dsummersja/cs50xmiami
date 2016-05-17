@@ -12,3 +12,10 @@ Ever wonder how much a "lifetime supply" of your favorite snack is? Wonder no mo
 */
 
 // write your solution here...
+var currentage = 22,
+    maxage = 90,
+    twixperday = 2,
+    totaldays = maxage*365 - currentage*365,
+    totaltwix = totaldays * twixperday
+;
+console.log("You wil need "+totaltwix+" to last you until the ripe old age of "+maxage);
