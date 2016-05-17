@@ -10,3 +10,9 @@ Forgot how old someone is? Calculate it!
 */
 
 // write your solution here...
+var currentyr = 2016,
+    birthyr = 1993,
+    age1 = currentyr - birthyr,
+    age2 = currentyr - birthyr - 1
+;
+console.log("They are either "+ age1 + " or " + age2);
