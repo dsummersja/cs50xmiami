@@ -11,3 +11,12 @@ It's like IMDB, but much much smaller!
 */
 
 // write your solution here...
+var movie  = {
+  title: "Good Will Hunting",
+  duration: 126,
+  stars:["Matt Damon", " Ben Affleck", " Robin Williams"],
+  information: function () {
+      console.log(movie.title+" lasts for "+movie.duration+" minutes. "+" Stars: " +movie.stars);
+  }
+}
+movie.information();
