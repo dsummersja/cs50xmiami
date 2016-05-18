@@ -18,3 +18,12 @@ Never forget another recipe!
 */
 
 // write your solution here...
+var recipe = {
+  title:"   Jamaican Rice and Peas",
+  servings:"   Serves: 4",
+  ingredients:['Ingredients:', "2 cups rice", "1 cup kidney beans", "1/2 teaspoon salt", "2 stems of thyme", "2 stems scallion"]
+};
+
+console.log(recipe.title);
+console.log(recipe.servings);
+console.log(recipe.ingredients);
