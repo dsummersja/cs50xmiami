@@ -9,3 +9,9 @@ Create an array to hold your top choices (colors, presidents, whatever).
 */
 
 // write your solution here...
+var choice = ["Manchester United", "Paris St Germain", "Borussia Dortmund"],
+    suffix = ["st", "nd", "rd"]
+;
+for (var i = 0; i < choice.length; i++) {
+  console.log("My "+(i+1)+suffix[i]+" choice is "+choice[i])
+}
