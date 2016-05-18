@@ -10,3 +10,13 @@ and log the output to make sure it works (e.g. "The greater number of 5 and 10 i
 */
 
 // write your solution here...
+function greaterNum(num1, num2){
+  if (num1 > num2) {
+    console.log("The greater number of "+num1+" and "+num2+" is "+num1+".")
+  }
+  else {
+    console.log("The greater number of "+num1+" and "+num2+" is "+num2+".")
+  }
+}
+greaterNum(3, 4);
+greaterNum(7, 1);
