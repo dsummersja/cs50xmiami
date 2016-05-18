@@ -17,3 +17,16 @@ Keep track of which books you read and which books you want to read!
 */
 
 // write your solution here...
+var books = [
+  {title: "Think and Grow Rich", author: "Napoleon Hill", alreadyRead: true },
+  {title: "The Personal MBA", author: "Josh Kaufman", alreadyRead: false},
+  {title: "The Peter Plan", author: "Dr. Laurence J. Peter", alreadyRead: false}
+];
+for (var i = 0; i < books.length; i++) {
+  if (books[i].alreadyRead == true) {
+    console.log("You already read "+books[i].title+" by "+books[i].author);
+  }
+  else {
+    console.log("You still need to read "+books[i].title+" by "+books[i].author);
+  }
+}
