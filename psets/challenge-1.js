@@ -38,15 +38,20 @@ like Wheel of Fortune without the wheel and fortune).
 var word = ["D", "O", "G"],
     letters = ["_", "_", "_"],
     wordlength = word.length,
-    letterslength = letters.length
+    letterslength = letters.length,
+    count = letterslength
 ;
 function guessLetter(letter){
   for (var i = 0; i < word.length; i++) {
     if (letter == word[i]) {
       letters[i] = letter;
-      console.log("You found a letter")
+      count --;
+      console.log("You found a letter !")
     }
   }
-  console.log(letters+" more to go")
-}
+    console.log(letters+" "+count+" more to go");
+  }
+
 guessLetter("D");
+guessLetter("O");
+guessLetter("F");
