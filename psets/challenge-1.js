@@ -47,6 +47,6 @@ function guessLetter(letter){
       console.log("You found a letter")
     }
   }
-  console.log(letters+" two more to go")
+  console.log(letters+" more to go")
 }
 guessLetter("D");
